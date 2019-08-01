@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UI.DetailsActivity"
+    android:id="@+id/layout"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbarThumbVertical="@drawable/scrollborders"
+        >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+
+            >
+
+
+
+            <ImageView
+                android:id="@+id/img"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:background="@color/photo_placeholder"
+                android:elevation="2dp"
+
+                />
+
+
+
+        </FrameLayout>
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="80dp"
+           android:background="#ffcdd2"
+           >
+
+           <TextView
+               android:id="@+id/name"
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:textColor="#c2185b"
+               android:textSize="32sp"
+               android:gravity="center_vertical"
+               android:layout_marginLeft="5dp"
+               android:layout_marginStart="5dp" />
+
+       </LinearLayout>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/describtion"
+            android:textSize="30sp"
+            android:layout_marginLeft="5dp"
+            android:textColor="#2196f3"
+            android:layout_marginStart="5dp" />
+        <TextView
+            android:id="@+id/desc"
+            android:layout_marginTop="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:layout_marginLeft="5dp"
+            android:textColor="#212121"
+            android:layout_marginStart="5dp" />
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/cure"
+            android:textSize="30sp"
+            android:layout_marginLeft="5dp"
+            android:textColor="#2196f3"
+            android:layout_marginStart="5dp" />
+        <TextView
+            android:id="@+id/cure"
+            android:layout_marginTop="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:layout_marginLeft="5dp"
+            android:textColor="#212121"
+            android:layout_marginStart="5dp" />
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/prevention"
+            android:textSize="30sp"
+            android:layout_marginLeft="5dp"
+            android:textColor="#2196f3"
+            android:layout_marginStart="5dp" />
+        <TextView
+            android:id="@+id/prev"
+            android:layout_marginTop="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:layout_marginLeft="5dp"
+            android:textColor="#212121"
+            android:layout_marginStart="5dp" />
+
+
+
+
+    </LinearLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>

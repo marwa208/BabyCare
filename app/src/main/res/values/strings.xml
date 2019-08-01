@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Baby Care</string>
+    <string name="start_text"> Start Care for your Baby  </string>
+    <string name="start_text1"> With just Few </string>
+    <string name="start_text3"> Clicks! </string>
+    <string name="start_now">Start Now</string>
+    <string name="diseaselist">Disease List</string>
+
+    <string name="baby_care">Baby Care</string>
+    <string name="banner_ad_unit_id">ca-app-pub-7278400918637000/6590352832</string>
+    <string name="describtion">Describtion:</string>
+    <string name="cure">Cure:</string>
+    <string name="prevention">Prevention:</string>
+    <string name="Details">Details</string>
+    <string name="diseases">Diseases</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+</resources>

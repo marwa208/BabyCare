@@ -1,0 +1,86 @@
+{
+  "project_info": {
+    "project_number": "763412289441",
+    "firebase_url": "https://capaciton-5670e.firebaseio.com",
+    "project_id": "capaciton-5670e",
+    "storage_bucket": "capaciton-5670e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:763412289441:android:c6b2d0997ab59580",
+        "android_client_info": {
+          "package_name": "com.example.marwa.babycare"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "763412289441-1qrjuol9l69hfgketb8gcsiop313iqd7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.marwa.babycare",
+            "certificate_hash": "51f76c5d3fcd450715897b8bc0251137fe6dd5e0"
+          }
+        },
+        {
+          "client_id": "763412289441-h6pjhhplrs1s0gk3vbbsnrm6gdn2blm9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC51SC7-8hfIC_ZNPdSIXGFZncqrqfvbP0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "763412289441-h6pjhhplrs1s0gk3vbbsnrm6gdn2blm9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:763412289441:android:4a2722bf8f8b66a7",
+        "android_client_info": {
+          "package_name": "com.example.marwa.capaciton"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "763412289441-fu9m3m3m6uu07psmb52p5eumh9t1gebm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.marwa.capaciton",
+            "certificate_hash": "51f76c5d3fcd450715897b8bc0251137fe6dd5e0"
+          }
+        },
+        {
+          "client_id": "763412289441-h6pjhhplrs1s0gk3vbbsnrm6gdn2blm9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC51SC7-8hfIC_ZNPdSIXGFZncqrqfvbP0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "763412289441-h6pjhhplrs1s0gk3vbbsnrm6gdn2blm9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      },
+      "admob_app_id": "ca-app-pub-7278400918637000~1126856322"
+    }
+  ],
+  "configuration_version": "1"
+}
